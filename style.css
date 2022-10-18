@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --color-text-gray900: #111827;
+    --color-text-gray200: #e5e7eb;
+    --color-navbar-green600: #16a34a;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px auto;
+    font-family: 'Ubuntu', sans-serif;
+    /* background: var(--color-navbar-green600); */
+
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.navbar .menu li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+.navbar .menu li a{
+    color: #ffff;
+
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+
+.home{
+    display: flex;
+    background: url("/assets/person1.png") no-repeat center;
+    height: 100vh;
+    color: #ffff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;   
+}
+
+.home .home-context .text-1{
+    font-size: 27px;
+    
+}
+
+.home .home-context .text-2{
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-context .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-context .text-3 span{
+    color: var(--color-navbar-green600);
+    font-weight: 500;
+    
+}
